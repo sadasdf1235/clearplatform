@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/calendar/calendar",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/start/start",
+    "pages/login/login",
+    "pages/chat/chat",
+    "pages/daily_clean/daily_clean",
+    "pages/release/release"
+  ],
+  "window": {
+    "pageOrientation": "portrait",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "iconPath": "static/images/calendar.png",
+        "selectedIconPath": "static/images/calendar.png",
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历"
+      },
+      {
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home.png",
+        "pagePath": "pages/home/home",
+        "text": "主页"
+      },
+      {
+        "iconPath": "static/images/chat.png",
+        "selectedIconPath": "static/images/chat.png",
+        "pagePath": "pages/message/message",
+        "text": "聊天"
+      },
+      {
+        "iconPath": "static/images/settings.png",
+        "selectedIconPath": "static/images/settings.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "演示定位能力"
+    }
+  },
+  "usingComponents": {}
+}
