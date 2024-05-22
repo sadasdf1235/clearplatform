@@ -28,12 +28,12 @@ const _sfc_main = {
           {
             required: true,
             errorMessage: "请输入密码"
-          },
-          {
-            minLength: 8,
-            maxLength: 12,
-            errorMessage: "姓名长度在 {minLength} 到 {maxLength} 个字符"
           }
+          // {
+          // 	minLength: 8,
+          // 	maxLength: 12,
+          // 	errorMessage: '姓名长度在 {minLength} 到 {maxLength} 个字符',
+          // }
         ]
       },
       // 对email字段进行必填验证
@@ -45,7 +45,14 @@ const _sfc_main = {
       }
     };
     const pasLogin = () => loginWay.value = 0;
-    function submit() {
+    async function submit() {
+      await common_vendor.index.request({
+        url: "https://api.pingcc.cn/fiction/search/title/完美世界",
+        success: (res) => console.log(res.data, "dasdasda")
+      });
+      common_vendor.index.switchTab({
+        url: "/pages/user/user"
+      });
     }
     function forget() {
     }

@@ -10,7 +10,7 @@ const _sfc_main = {
         title: "Daily Clean"
       },
       {
-        img: common_assets._imports_0$2,
+        img: common_assets.deep_clean,
         title: "Deep Clean"
       }
     ]);

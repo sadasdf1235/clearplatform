@@ -31,7 +31,7 @@ let scheduleList = ref([
 		title : 'Daily Clean'
 	},
 	{
-		img : daily_clean,
+		img : deep_clean,
 		title : 'Deep Clean'
 	},
 ])

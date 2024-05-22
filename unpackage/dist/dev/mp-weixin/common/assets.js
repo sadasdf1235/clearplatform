@@ -2,6 +2,7 @@
 const _imports_0$3 = "/static/images/search.png";
 const _imports_0$2 = "/static/images/icn.png";
 const _imports_0$1 = "/static/images/daily_clean.png";
+const deep_clean = "/static/images/deep_clean.png";
 const _imports_0 = "/static/images/colon.png";
 const _imports_1 = "/static/images/done-all.png";
 const _imports_2 = "/static/images/stickers.png";
@@ -11,3 +12,4 @@ exports._imports_0$2 = _imports_0$1;
 exports._imports_0$3 = _imports_0;
 exports._imports_1 = _imports_1;
 exports._imports_2 = _imports_2;
+exports.deep_clean = deep_clean;
